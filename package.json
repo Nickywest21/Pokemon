@@ -1,5 +1,9 @@
 {
   "name": "servidor-pokedex",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
