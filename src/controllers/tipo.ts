@@ -15,8 +15,6 @@ export async function getPokemonTipo(req: Request, res: Response) {
 
     res.json({
         tipo: data.name,
-        pokemon: data.pokemon.map((p: any) => p.pokemon.name),
-        estadisticas: data.stats.map((s: any) => s.stat.name),
-        habilidades: data.abilities.map((a: any) => a.name)
+        pokemon: data.pokemon.map((p: any) => p.pokemon.name)
     });
 }
