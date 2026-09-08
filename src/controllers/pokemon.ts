@@ -17,5 +17,10 @@ export async function getPokemon(req: Request, res: Response) {
     nombre: data.name,
     imagen: data.sprites.other["official-artwork"].front_default,
     tipos: data.types.map((t: any) => t.type.name),
+    habilidades: data.abilities.map((a: any) => a.ability.name),
+    estadisticas: data.stats.map((s: any) => ({
+      nombre: s.stat.name,
+      valor: s.base_stat
+    }))
   });
 }
