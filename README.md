@@ -90,9 +90,39 @@ Cuando el Pokémon existe, el servidor filtra la respuesta pesada de la PokéAPI
 {
   "id": 25,
   "nombre": "pikachu",
-  "imagen": "[https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png)",
+  "imagen": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png",
   "tipos": [
     "electric"
+  ],
+  "habilidades": [
+    "static",
+    "lightning-rod"
+  ],
+  "estadisticas": [
+    {
+      "nombre": "hp",
+      "valor": 35
+    },
+    {
+      "nombre": "attack",
+      "valor": 55
+    },
+    {
+      "nombre": "defense",
+      "valor": 40
+    },
+    {
+      "nombre": "special-attack",
+      "valor": 50
+    },
+    {
+      "nombre": "special-defense",
+      "valor": 50
+    },
+    {
+      "nombre": "speed",
+      "valor": 90
+    }
   ]
 }
 
